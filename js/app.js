@@ -2,7 +2,7 @@ function cipher (question){//creando la funcion para encriptar las letras
   question = prompt("Ingrese un texto").toUpperCase();//convirtiendo a mayusculas todas letras
     var newPhrase= [];//creando un array vacio donde iran las letras encriptadas
      var verification = parseInt(question); //verificando que solo se puedan ingresar letras
-        while(verification >=0 || verification <=0 || question === ''){
+        while(verification >=0 || verification <=0 || question === ' '){
           question= prompt("Ingrese un texto").toUpperCase();//si no son letras le enviamos un mensaje que pida letras
              verification = parseInt(question);
     }
@@ -28,7 +28,7 @@ function decipher(phrase){ //creamos la funcion para desencriptar las letras
   phrase = prompt("Ingrese un texto").toUpperCase(); //las pasamos todas a mayusculas
     var newA= [];// creamos un array vacio donde ingresan las nuevas letras
       var verification = parseInt(phrase); //verificamos que solo ingrese letras
-        while(verification>=0 ||verification<=0 || verification===''){
+        while(verification>=0 ||verification<=0 || verification===' '){
           phrase = prompt('Ingrese texto valido').toUpperCase();
              verification=parseInt(phrase);
 }
