@@ -125,4 +125,4 @@ convertimos a mayúsculas todas las  letras
 Diagrama de flujo
 -----------------
 
-![Sin titulo](dia.png)
+![Sin titulo](assets/docs/dia.png)
